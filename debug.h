@@ -1,6 +1,7 @@
 #ifndef __DEBUG_H__
 
-#define DEBUG cout
+#define DEBUGBUILD 0
+#define DEBUG if(DEBUGBUILD) cout 
 
 #define __DEBUG_H__
 
