@@ -8,7 +8,7 @@ private:
 public:
   Time();
   ~Time();
-  void set();
+  void set(int, int);
   void display();
 };
 
