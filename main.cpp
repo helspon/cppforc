@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  Time myTime;
+  Time myTime, anotherTime;
 
   myTime.set(10, 30);
   myTime.display();
