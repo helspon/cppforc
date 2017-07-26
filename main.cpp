@@ -7,5 +7,8 @@ int main(void)
   myTime.set(10, 30);
   myTime.display();
 
+  myTime.set(5, 10);
+  myTime.display();
+
   return 0;
 }
